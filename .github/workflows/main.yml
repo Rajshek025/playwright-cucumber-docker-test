@@ -7,6 +7,7 @@
    e2etest:
     runs-on: windows-latest # or macos-latest, ubuntu-latest
     environment: dev
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
