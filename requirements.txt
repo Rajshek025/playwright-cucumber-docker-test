@@ -1,0 +1,5 @@
+playwright==1.36.0
+cucumber==9.0.1
+puppeteer==20.8.1
+
+

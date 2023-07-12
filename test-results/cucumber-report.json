@@ -1,0 +1,127 @@
+[
+  {
+    "description": "  JIRA_ID: DemoProj_1234\n  Description: This feature verifies that login use cases of the applcation",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-login-scenarios-of-'practice-automation.com'-website;as-a-locked-out-user-i-try-to-login-to-applcation",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "As a Locked out user I try to login to applcation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 187389800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User navigates to 'https://practicetestautomation.com/practice-test-login/'",
+            "match": {
+              "location": "e2e\\steps\\loginSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12684999000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User enter the username as \"incorrectUser\"",
+            "match": {
+              "location": "e2e\\steps\\loginSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54932700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User enter the password as \"Password123\"",
+            "match": {
+              "location": "e2e\\steps\\loginSteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18773099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User click on the Submit button",
+            "match": {
+              "location": "e2e\\steps\\loginSteps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52006799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I verify error message \"Your username is invalid!\" is displayed",
+            "match": {
+              "location": "e2e\\steps\\loginSteps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6661399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29319400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@login_negative",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-login-scenarios-of-'practice-automation.com'-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Verify Login scenarios of 'practice automation.com' website",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "e2e\\features\\LoginTest.feature"
+  }
+]
