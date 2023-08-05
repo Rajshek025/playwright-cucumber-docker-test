@@ -4,7 +4,7 @@ Cucumber is a popular behavior-driven development (BDD) Library which uses Gherk
 
 ## Features
 
-1. Verify Login functionalities of https://www.saucedemo.com/ 
+1. Verify Login functionalities of https://practicetestautomation.com
 2. Verify Filter Product
 3. Add product to cart (TBD)
 4. Place order (TBD)

@@ -32,13 +32,13 @@ Feature: Verify Login scenarios of 'practice automation.com' website
       Examples:
         | usecase                       | username                                                                                  | password                                                                | errorMsg                  |
         | incorect username test        | incorrectUser                                                                             | Password123                                                             | Your username is invalid! |
-        #| incorrect password test       | student                                                                                   | incorrectPassword                                                      | Your password is invalid! |
-        #| Blank username and password   |                                                                                           |                                                                         | Your username is invalid! |
-        #| Blank username with password  |                                                                                           | Password123                                                             | Your username is invalid! |
-        #| Username with blank password  |  student                                                                                  |                                                                         | Your password is invalid! |
-        #| input lengthy username        |   fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FADSf               |                                                                         | Your username is invalid! |
-        #| input lengthy password        |                                                                                           | fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FADS| Your username is invalid! |
-        #| lengthy username and pwd      |   fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FADSf               | fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FAD | Your username is invalid! |
+        | incorrect password test       | student                                                                                   | incorrectPassword                                                      | Your password is invalid! |
+        | Blank username and password   |                                                                                           |                                                                         | Your username is invalid! |
+        | Blank username with password  |                                                                                           | Password123                                                             | Your username is invalid! |
+        | Username with blank password  |  student                                                                                  |                                                                         | Your password is invalid! |
+        | input lengthy username        |   fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FADSf               |                                                                         | Your username is invalid! |
+        | input lengthy password        |                                                                                           | fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FADS| Your username is invalid! |
+        | lengthy username and pwd      |   fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FADSf               | fdafdfadsfdasfd532523523523@#%@#%@#%#@%@#%@#%@#%@#%@#%#@%@#%@#%@#%#@FAD | Your username is invalid! |
 
   @login_other 
   Scenario Outline: I refresh the page after login and verify that user still logged in

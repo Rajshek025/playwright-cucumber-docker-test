@@ -4,7 +4,7 @@ import { page } from '../support/hooks';
 
 
 export default class LoginPage {
-
+    // Object repository of Login Page
     static Elements = {
         username: '#username',
         password: '#password',
@@ -12,9 +12,11 @@ export default class LoginPage {
         errorMessage: '//div[@id="error"]'
     }
 
+    // Verify that current url is as expected
     static async verifyCurrentUrl(currentUrl : string) {
         expect(await page.url()).toBe(currentUrl);
     }
+    
     static async verifyLoginPage(url: string) {
         await page.goto(url);
     }
